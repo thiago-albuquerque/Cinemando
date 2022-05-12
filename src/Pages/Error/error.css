@@ -1,0 +1,29 @@
+.errorContainer{
+    width: 100%;
+    min-height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.errorContainer span{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.errorContainer h1{
+    color: #F9A101;
+    width: 100%;
+    font-size: 70px;
+    text-align: end;
+    padding-right: 20px;
+    border-right: 2px solid #566069;
+    margin: 0;
+}
+.errorContainer h3{
+    color: #fff;
+    width: 100%;
+    text-align: start;
+    padding-left: 20px;
+    margin: 0;
+}

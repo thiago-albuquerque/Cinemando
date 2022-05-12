@@ -1,0 +1,69 @@
+.favoritosContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.favoritosContainer h1{
+    font-size: 32px;
+    color: #F9A101;
+}
+.favoritosContainer ul{
+    list-style: none;
+    width: 90%;
+    min-height: calc(100vh - 332px);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+    padding: 10px 0 50px 0;
+}
+.favoritosContainer span{
+    width: 280px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ABB2B9;
+    border-radius: 20px;
+}
+.favoritosContainer img{
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.5));
+}
+.favoritosContainer h3{
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.favoritosContainer .iconDelete{
+    width: 280px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: #F9A101;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0 5px 0;
+    margin-top: 10px;
+    transition: all 0.4s;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.favoritosContainer .iconDelete:hover{
+    cursor: pointer;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
